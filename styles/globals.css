@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .rc-table-custom table {
+    width: 100%;
+  }
+
+  li.js-li {
+    display: inline-block;
+    padding: 7px;
+    font-size: 18px;
+  }
+
+  li.js-li.active {
+    color: white;
+    font-weight: 700;
+    background: #22A6B3;
+    border-radius: 6px;
+  }
+
+  ul.js-ul {
+    margin-top: 12px;
+    text-align: right;
+  }
+
+  .pure-modal .panel-heading {
+    @apply bg-purple-600!important;
+  }
+
+  p.product-title {
+    margin-top: 0px !important;
+  }
+}
+
+/* Hexagonal profile picture styling */
+.hexagon-profile {
+    width: 40px; /* Width of the hexagonal shape */
+    height: 40px; /* Height of the hexagonal shape */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    overflow: hidden;
+    border: 2px solid #5c7aaf;
+    background-color: #5c7aaf;
+    border-radius: 4px;
+  }
+  
+
+  
